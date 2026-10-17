@@ -1,0 +1,30 @@
+{
+  "name": "postgresql-drizzle",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Jennifer-dg/Tarea-Levantar-Postgresql#readme",
+  "bugs": {
+    "url": "https://github.com/Jennifer-dg/Tarea-Levantar-Postgresql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jennifer-dg/Tarea-Levantar-Postgresql.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.21.0",
+    "drizzle-kit": "^1.0.0-rc.4-ca0f029",
+    "tsx": "^4.23.11"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "pg": "^8.23.0"
+  }
+}
